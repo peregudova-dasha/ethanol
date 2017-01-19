@@ -1,1 +1,564 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+/*
+light 300
+regular 400
+bold 700
+black 900
+*/
+* {
+  color: #6b6b6b;
+  font-family: 'Lato', sans-serif;
+}
+* a, * a:hover, * a:active, * a:visited, * a:link {
+  color: inherit;
+  text-decoration: none;
+}
+* h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+* h2 span {
+  color: #ffcb00;
+  font-weight: 700;
+}
+* .descr {
+  text-align: center;
+  font-size: 1.4em;
+  color: #6b6b6b;
+  font-style: italic;
+  padding: 0 10px;
+}
+* .logo {
+  margin: 30px auto 70px auto;
+  background: url("https://github.com/peregudova-dasha/ethanol/blob/gh-pages/img/e.jpg?raw=true") no-repeat 50% 50%;
+  width: 100%;
+  height: 50px;
+}
+
+header .menu .navbar {
+  padding-top: 15px;
+  background: none;
+  border: none;
+}
+header .menu .navbar .navbar-nav li {
+  display: block;
+  margin: 10px auto;
+}
+header .menu .navbar .navbar-nav li a {
+  font-weight: 700;
+  color: #333333;
+}
+header .menu .navbar .navbar-nav li .menu-hover {
+  width: 0;
+  margin: 0 5%;
+  height: 4px;
+  background: #ffcb00;
+}
+header .title {
+  padding-bottom: 170px;
+  background: url("https://github.com/peregudova-dasha/ethanol/blob/gh-pages/img/bg1.jpg?raw=true") 50% 50% no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+header .title h1 {
+  text-align: center;
+  color: #ffcb00;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.7em;
+  margin: 0;
+  padding: 250px 0 20px 0;
+}
+header .title p {
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}
+header .title .button {
+  width: 200px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 120px auto 0 auto;
+  border-bottom: 3px solid #ffcb00;
+}
+header .title .button a {
+  font-size: 1.5em;
+  color: white;
+}
+
+.block {
+  padding: 100px 0;
+  background: #ffcb00;
+}
+.block img {
+  display: block;
+  margin: 0 auto;
+}
+.block p {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  width: 55%;
+  margin: 50px auto 0 auto;
+}
+
+.what-we-do {
+  padding: 50px 0;
+}
+.what-we-do .left {
+  text-align: right;
+}
+.what-we-do img {
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+}
+
+.know-us {
+  padding: 50px 0;
+}
+.know-us .profile {
+  background: #f3f3f3;
+}
+.know-us .profile img {
+  width: 100%;
+}
+.know-us .profile h3 {
+  color: #333333;
+  font-weight: 700;
+  margin: 50px 0;
+  padding: 0 50px 0 30px;
+}
+.know-us .profile p {
+  padding: 0 50px 0 30px;
+}
+.know-us .profile .soc {
+  display: none;
+  position: relative;
+  top: -70px;
+  left: 10%;
+}
+.know-us .profile .soc img {
+  width: 70px;
+  margin: 0 2px;
+}
+.know-us .profile .dev {
+  text-align: center;
+  padding: 70px 0;
+  margin: 0 auto;
+  font-size: 1.85em;
+  width: 80%;
+  color: #333333;
+}
+.know-us .profile .dev span {
+  font-size: 1.5em;
+  color: #333333;
+}
+.know-us .profile .skills {
+  width: 100%;
+  height: 200px;
+  margin-top: 70px;
+  padding: 0 50px 0 30px;
+}
+.know-us .profile .skills p {
+  padding: 20px 0 0px 0;
+  margin: 0 0 5px 0;
+}
+.know-us .profile .skills .scale {
+  width: 100%;
+  height: 15px;
+  background: #6b6b6b;
+}
+.know-us .profile .skills .scale .done {
+  float: left;
+  background: #ffcb00;
+  height: 15px;
+}
+.know-us .profile .skills .scale .done1 {
+  width: 100%;
+}
+.know-us .profile .skills .scale .done2 {
+  width: 90%;
+}
+.know-us .profile .skills .scale .done3 {
+  width: 70%;
+}
+.know-us .profile .skills .scale .done4 {
+  width: 55%;
+}
+.know-us .profile .skills .scale .done5 {
+  width: 55%;
+}
+.know-us .statistics {
+  padding: 50px 0;
+}
+.know-us .statistics img {
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+}
+.know-us .statistics h3 {
+  text-align: center;
+  padding: 0;
+  margin: 30px auto 15px auto;
+}
+.know-us .statistics .descr {
+  font-size: 1em;
+}
+
+.team {
+  padding: 70px 0;
+}
+.team h3 {
+  text-align: center;
+  color: #333333;
+  margin-top: 40px;
+}
+.team p {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+.team .worker {
+  width: 100%;
+  height: 400px;
+  background: url("https://github.com/peregudova-dasha/ethanol/blob/gh-pages/img/worker.jpg?raw=true") 50% 0% no-repeat;
+  background-size: cover;
+}
+.team .worker .about {
+  top: 270px;
+  width: 100%;
+  height: 130px;
+  position: relative;
+  background: black;
+  opacity: 0.9;
+}
+.team .worker .text {
+  top: 150px;
+  position: relative;
+  color: white;
+  padding: 10px 50px;
+  font-size: 1.15em;
+  text-align: center;
+}
+.team .worker .hover {
+  display: none;
+}
+.team .soc {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.we-are {
+  padding: 100px 0;
+}
+.we-are .branches {
+  padding: 100px 0;
+  background: #f3f3f3;
+}
+.we-are .branches .tabs .tab-item {
+  width: 85%;
+  border-bottom: 2.5px solid #D0CDCD;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 0;
+  background: white;
+}
+.we-are .branches .tabs .tab-item h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+}
+.we-are .branches .tabs .tab-item p {
+  font-style: italic;
+}
+.we-are .branches .tabs .tab-item img {
+  display: block;
+  margin: 7px auto;
+  width: 80%;
+}
+.we-are .branches .tabs .tab-item:first-child {
+  background: #ffcb00;
+  border-bottom: 2.5px solid #A7740E;
+}
+.we-are .branches .tabs .tab-item:first-child h4, .we-are .branches .tabs .tab-item:first-child p {
+  color: white;
+}
+.we-are .branches .tab-content h3 {
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 700;
+}
+.we-are .branches .tab-content p {
+  margin: 50px 0 80px 0;
+}
+.we-are .branches .tab-content img {
+  width: 60%;
+}
+.we-are .branches .content-item {
+  display: none;
+}
+.we-are .branches .active {
+  display: block;
+}
+
+.our-works {
+  padding: 100px 0;
+}
+.our-works .container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.our-works .column {
+  padding: 0;
+  margin: 0;
+}
+.our-works img {
+  width: 100%;
+}
+
+.workflow {
+  padding: 100px 0;
+}
+.workflow .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.workflow .points {
+  padding: 100px 0;
+  background: #f3f3f3;
+}
+.workflow .points h3 {
+  text-transform: uppercase;
+  color: #333333;
+  padding-left: 20px;
+  font-weight: 700;
+}
+.workflow .points p {
+  padding: 10px 80px 0 20px;
+}
+.workflow .points img {
+  display: block;
+  float: right;
+}
+
+.price {
+  padding: 100px 0;
+}
+.price .table {
+  text-align: center;
+}
+.price .table .rate {
+  border: 1px solid #6b6b6b;
+  border-radius: 5px;
+  display: inline-block;
+  width: 25vw;
+}
+.price .table .rate .name {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-color: #222222;
+  padding: 30px 0;
+  background: #222222;
+}
+.price .table .rate .name h3 {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.price .table .rate .price {
+  border-bottom: 1px solid #6b6b6b;
+  padding: 20px 0;
+  font-size: 4em;
+  font-weight: 700;
+}
+.price .table .rate .price .month {
+  font-size: 0.5em;
+  display: inline-block;
+  font-weight: 400;
+}
+.price .table .rate .include {
+  padding: 20px 0 0 0;
+}
+.price .table .rate .include p {
+  padding: 5px 0;
+}
+.price .table .rate .include p:last-child {
+  text-transform: uppercase;
+}
+.price .table .rate .include .button {
+  width: 80%;
+  margin: 40px  auto 5px auto;
+  background: #222222;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-size: 0.8epx;
+}
+
+.blog {
+  padding: 100px 0;
+}
+.blog .posts {
+  padding: 100px 0;
+  background: #f3f3f3;
+}
+.blog .posts .post {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid #D0CDCD;
+  background: white;
+}
+.blog .posts .post .post-preview {
+  width: 100%;
+  padding: 20px 10px;
+}
+.blog .posts .post .post-preview img {
+  width: 100%;
+}
+.blog .posts .post .post-preview h4 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.blog .posts .post .read {
+  border-top: 1px solid #D0CDCD;
+}
+.blog .posts .post .read .post-comments {
+  padding: 15px;
+  display: inline-block;
+  color: #ffcb00;
+}
+.blog .posts .post .read .post-comments a {
+  padding: 0 5px;
+}
+.blog .posts .post .read .likes {
+  border-radius: 2px;
+  margin: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  background: #f3f3f3;
+  float: right;
+}
+.blog .posts .post .read .likes img {
+  margin: 0 5px;
+}
+.blog .posts .button {
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background: #ffcb00;
+  color: white;
+  font-weight: 900;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.contact-us {
+  padding: 100px 0;
+}
+.contact-us .map {
+  width: 100%;
+}
+.contact-us .contact-form {
+  padding: 100px 0 0 0;
+}
+.contact-us .contact-form img {
+  margin: 0 auto;
+  display: block;
+}
+.contact-us .contact-form p {
+  padding: 50px 0;
+  text-align: center;
+  font-weight: 700;
+  color: #6b6b6b;
+  font-size: 1.25em;
+}
+.contact-us form input {
+  width: 100%;
+  height: 40px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+}
+.contact-us form input.message {
+  height: 200px;
+}
+.contact-us form input:focus {
+  outline: none;
+  border: 1px solid #ffcb00;
+}
+
+footer {
+  background: #ffcb00;
+  width: 100%;
+  padding: 50px 150px;
+}
+footer p {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1em;
+  display: inline-block;
+}
+footer .soc {
+  display: inline-block;
+  float: right;
+}
+
+/* Media queries */
+/*PHONE*/
+@media all and (max-width: 767px) {
+  .we-are .tab-item img {
+    width: 100%;
+  }
+  .we-are .content-item {
+    word-wrap: break-word;
+  }
+  .we-are .content-item h3 {
+    font-size: 1.2em;
+  }
+
+  .workflow .points img {
+    width: 100%;
+  }
+  .workflow .points p {
+    padding: 5px;
+  }
+
+  .price .table .rate {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blog .posts .post .read .likes {
+    float: none;
+  }
+
+  footer {
+    padding: 20px;
+  }
+  footer .soc {
+    float: none;
+  }
+}
+/*TABLETS*/
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .blog .posts .post .read .likes {
+    float: none;
+  }
+}
+/*MEDIUM DEVICE*/
+/*LARGE DEVICE*/
+@media all and (min-width: 1201px) {
+  .container {
+    width: 90%;
+  }
+}
 
