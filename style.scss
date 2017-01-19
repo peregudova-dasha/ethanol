@@ -1,1 +1,475 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+/*
+light 300
+regular 400
+bold 700
+black 900
+*/
+
+$yellow: #ffcb00;
+$grey: #6b6b6b;
+$lg: #f3f3f3;
+$dg: #333333;
+
+* {
+  color: $grey;
+ font-family: 'Lato', sans-serif;
+  a, a:hover, a:active, a:visited, a:link {color:inherit; text-decoration: none;}
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    span {color:$yellow;font-weight: 700;}
+   
+  }
+  .descr {text-align: center; font-size: 1.4em; color: $grey; font-style: italic; padding: 0 10px;}
+  .logo {
+    margin:30px auto 70px auto;
+    background:url("https://github.com/peregudova-dasha/ethanol/blob/gh-pages/img/e.jpg?raw=true") no-repeat 50% 50%;
+    width:100%;
+    height: 50px;
+  }
+}
+
+header {
+  .menu {
+    .navbar {
+      padding-top:15px;
+      background: none;
+      border: none;
+      .navbar-nav {
+      li {
+        display:block;
+        margin: 10px auto;
+        a {font-weight: 700; color: $dg;}
+        .menu-hover {
+          width: 0;
+          margin: 0 5%;
+          height: 4px;
+          background:$yellow;
+        }
+         }
+      }
+    }
+  }
+  .title {
+    padding-bottom:170px;
+    background: url("https://github.com/peregudova-dasha/ethanol/blob/gh-pages/img/bg1.jpg?raw=true") 50% 50% no-repeat;
+    background-size: cover;
+    width:100%;
+    h1 {
+      text-align: center; 
+      color:$yellow; 
+      font-weight:900;
+      text-transform: uppercase;
+      font-size: 2.7em;
+      margin:0;
+      padding: 250px 0 20px 0;
+    }
+    p {text-align: center; font-size: 1.5em; color: white;}
+    .button{
+      width: 200px;
+      padding-bottom:20px;
+      text-align: center;
+      margin: 120px auto 0 auto;
+      border-bottom: 3px solid $yellow;
+      a{font-size: 1.5em; color: white;}}
+  }
+}
+
+.block {
+  padding: 100px 0;
+  background: $yellow;
+  img {display:block; margin: 0 auto;}
+  p {color: white; text-align:center; font-size:1.5em;width:55%; margin: 50px auto 0 auto;}
+}
+
+.what-we-do {
+  padding: 50px 0;
+
+  .left {text-align: right;}
+  img {display: block; margin: 15px auto; width:80%;}
+}
+
+.know-us {
+   padding: 50px 0;
+  .profile {
+    background: $lg;
+    img{width: 100%;}
+    h3 {color: $dg; font-weight:700; margin: 50px 0; padding: 0 50px 0 30px;}
+    p {padding: 0 50px 0 30px;}
+    .soc {
+      display:none;
+      position:relative;
+      top: -70px;
+      left: 10%;
+      img{width: 70px; margin: 0 2px;}}
+    .dev {
+      text-align: center;
+      padding: 70px 0;
+      margin: 0 auto;
+      font-size: 1.85em;
+      width: 80%;
+      color: $dg;
+      span {font-size: 1.5em;color: $dg;}
+    }
+    .skills {
+       width: 100%;
+      height:200px;
+      margin-top:70px;
+      padding: 0 50px 0 30px;
+      p {padding:20px 0 0px 0; margin:0 0 5px 0;}
+      .scale {
+        width: 100%;
+        height: 15px;
+        background:$grey;
+        .done {float: left; background:$yellow; height: 15px; }
+        .done1 {width: 100%;}
+        .done2 {width: 90%;}
+        .done3 {width: 70%;}
+        .done4 {width: 55%;}
+        .done5 {width: 55%;}
+        
+      }
+    }
+  }
+  .statistics {
+    padding: 50px 0;
+    img {width: 30%; margin:0 auto; display: block;}
+    h3 {text-align:center; padding:0; margin:30px auto 15px auto;}
+    .descr {
+      font-size: 1em;
+    }
+  }
+}
+
+.team {
+  padding: 70px 0;
+  h3 {text-align:center; color:$dg; margin-top:40px;}
+  p{text-align:center; text-transform:uppercase; padding-bottom: 40px;}
+  .worker {
+    width: 100%;
+    height: 400px;
+    background: url("https://github.com/peregudova-dasha/ethanol/blob/gh-pages/img/worker.jpg?raw=true") 50% 0% no-repeat;
+    background-size:cover;
+    .about {
+      top:270px;
+      width:100%;
+      height:130px;
+      position:relative;
+      background:black;
+      opacity: 0.9;
+      
+    }
+    .text {
+      top: 150px;
+       position:relative;
+       color: white;
+      padding:10px 50px;
+      font-size:1.15em;
+      text-align:center;
+    }
+    .hover {display:none;}
+   
+  }
+   .soc {
+     margin: 10px auto;
+     text-align: center;
+     }
+}
+
+.we-are {
+  padding:100px 0;
+  .branches {
+    padding: 100px 0;
+    background:$lg;
+    .tabs {
+    .tab-item  {
+      width:85%;
+      border-bottom: 2.5px solid #D0CDCD;
+      border-radius: 5px;
+      margin: 10px 0;
+      padding: 5px 0;
+      background: white;
+      
+      h4 {
+        text-transform:uppercase;
+        font-weight: 700;
+        font-size: 1em;
+      }
+      p {font-style: italic;}
+      img {display:block;margin: 7px auto; width:80%;}
+    }
+    .tab-item:first-child {
+      background: $yellow;
+      h4,p {color: white;}
+      border-bottom: 2.5px solid #A7740E;
+    }
+    }
+    .tab-content {
+      h3 {
+        text-transform:uppercase;
+        color:$dg;
+        font-weight: 700;
+      }
+      p {margin: 50px 0 80px 0;}
+      img {width: 60%;}
+     
+    }
+    .content-item {display:none;}
+    .active {display: block;}
+  }
+  
+  } 
+
+.our-works {
+  padding:100px 0;
+  .container {padding:0; margin:0; width:100%;}
+  .column {padding:0; margin:0;}
+  img {width:100%;}
+  
+}
+
+.workflow {
+  padding:100px 0;
+  .container {padding-top: 30px;padding-bottom: 30px;}
+  .points {
+    padding:100px 0;
+    background:$lg;
+    h3 {text-transform:uppercase; color:$dg; padding-left: 20px; font-weight: 700;}
+    p {padding: 10px 80px 0 20px;}
+    img {display:block; float:right; }
+  }
+}
+
+.price {
+  padding: 100px 0;
+  .table { 
+    text-align: center;
+  .rate {
+
+    border: 1px solid $grey;
+    border-radius: 5px;
+    display:inline-block;
+    width: 25vw;
+    .name {
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+      border-color:#222222;
+      padding: 30px 0;
+      background:#222222;
+      h3 {margin:0;color: white; text-transform:uppercase;font-size: 1.5em;}
+    }
+    .price {
+      border-bottom: 1px solid $grey;
+      padding: 20px 0;
+      font-size: 4em;
+      font-weight: 700;
+      
+      .month {font-size: 0.5em; display:inline-block; font-weight: 400;}
+    }
+    .include {
+     padding: 20px 0 0 0;
+      p {padding: 5px 0;}
+      p:last-child {text-transform:uppercase;}
+      .button {
+        width:80%;
+        margin: 40px  auto 5px auto;
+        background: #222222;
+        color: white;
+        text-transform:uppercase;
+        padding: 15px 0;
+        border-radius: 5px;
+        font-size: 0.8epx;
+      }
+    }    
+  }
+    
+ }
+}
+
+.blog {
+   padding: 100px 0;
+  .posts {
+    padding: 100px 0;
+    background:$lg;
+    .post {
+      margin-bottom: 30px;
+      border-radius: 10px;
+      border:1px solid #D0CDCD;
+      background: white;
+    .post-preview {
+      width:100%;
+      
+      padding: 20px 10px;
+      img {width:100%;}
+      h4 {font-size: 1.2em; font-weight: 700;}
+    }
+      .read {
+          border-top: 1px solid #D0CDCD;
+      
+        .post-comments {
+          padding:15px;
+          display: inline-block;
+          color:$yellow;
+          a {padding: 0 5px;}
+        }
+        .likes {
+          border-radius: 2px;
+          margin: 10px;
+          padding:5px 10px;
+          display: inline-block;
+          width: 70px;
+          height: 30px;
+          background: $lg;
+          float: right;
+          img {margin: 0 5px;}
+        }
+      }
+  }
+    .button {
+      margin: 30px auto 0 auto;
+      text-align:center;
+      width: 150px;
+      height: 40px;
+      background: $yellow;
+      color: white; font-weight: 900;
+      padding: 10px 0;
+      border-radius:5px;
+    }
+  }
+}
+
+.contact-us {
+  padding: 100px 0;
+  .map {width:100%;}
+  
+  .contact-form {
+    padding: 100px 0 0 0;
+    img {margin: 0 auto;display:block;}
+    p {
+      padding: 50px 0; 
+      text-align: center;
+      font-weight:700;
+      color:$grey;
+      font-size: 1.25em;
+    }
+  }
+  form {
+    input {
+      width:100%;
+      height: 40px;
+      margin: 10px auto;
+      padding: 10px;
+       border-radius: 5px;
+     border:1px solid #999999;
+    }
+    
+    input.message {
+      height:200px;
+    }
+    
+    input:focus {
+      outline:none;
+      border: 1px solid $yellow;
+    }
+  }
+  
+}
+
+footer {
+  background:$yellow;
+  width: 100%;
+  padding: 50px 150px;
+  p {color: white; font-weight:700; font-size: 1.1em;   display:inline-block;}
+  .soc {
+    display:inline-block;
+    float: right;
+  }
+}
+
+
+
+/////////////////////////////////////////
+////////////////////////////////////////
+/* Media queries */
+////////////////////////////////////////
+///////////////////////////////////////
+
+
+/*PHONE*/
+@media all and (max-width:767px) {
+  .what-we-do {
+    
+  }
+  .we-are {
+    .tab-item {
+      img {width:100%;}
+    }
+    .content-item {
+      word-wrap: break-word;
+      
+      h3 {font-size:1.2em;}
+    }
+  }
+  .workflow {
+    .points {
+      img {width:100%;}
+      p {padding:5px;}
+    }
+  }
+  .price {
+    .table {
+      .rate {
+        width:100%;
+        margin-bottom:20px;
+      }
+    }
+  }
+  .blog {
+    .posts {
+      .post { .read {
+        .likes {
+        float: none;
+      }
+        }}
+      
+    }
+  }
+  footer {
+    padding: 20px;
+    .soc {
+      float: none;
+    }
+  }
+  
+ 
+}
+
+/*TABLETS*/
+    @media all and (min-width:768px) and (max-width:991px){
+
+  .blog {
+    .posts {
+      .post { .read {
+        .likes {
+        float: none;
+      }
+        }}
+      
+    }
+  }
+  }
+
+
+/*MEDIUM DEVICE*/
+@media all and (min-width:992px) and (max-width:1200px) {
+  
+
+}
+
+/*LARGE DEVICE*/
+@media all and (min-width:1201px) {
+  .container {width: 90%;}
+}
